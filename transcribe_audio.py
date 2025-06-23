@@ -23,9 +23,9 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Model options (same as Telegram bot)
+# Model options - updated with Gemini 2.5 Flash as default
 MODEL_OPTIONS = {
-    'flash': 'models/gemini-2.0-flash-exp',
+    'flash': 'models/gemini-2.5-flash', 
     'pro': 'models/gemini-2.5-pro-exp-03-25'
 }
 
