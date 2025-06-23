@@ -42,7 +42,7 @@ python transcribe_audio.py path/to/audio.mp3
 
 ### Advanced Usage
 ```bash
-# Use Gemini 2.5 Pro model (higher accuracy)
+# Use Gemini 2.5 Pro model (highest accuracy, advanced reasoning)
 python transcribe_audio.py audio.mp3 --model pro
 
 # Custom output directory
@@ -91,8 +91,8 @@ GOOGLE_AI_API_KEY=your_gemini_api_key_here
 ```
 
 ### Model Options
-- **flash** (default): Gemini 2.0 Flash - Fast and efficient
-- **pro**: Gemini 2.5 Pro - Higher accuracy, slower processing
+- **flash** (default): Gemini 2.5 Flash - Fast, efficient with enhanced reasoning capabilities
+- **pro**: Gemini 2.5 Pro - Highest accuracy, advanced reasoning, slower processing
 
 ## API Key Setup
 
