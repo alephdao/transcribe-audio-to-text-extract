@@ -1,0 +1,250 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environment files and virtual environments
+.env
+.env.*
+.venv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Any directory containing virtual environment
+**/venv/
+**/env/
+**/ENV/
+**/.venv/
+**/.env/
+# Any directory ending with venv or env
+*venv/
+*env/
+*ENV/
+# Conda environments
+.conda/
+conda-meta/
+# Poetry
+poetry.lock
+.venv*/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Video files (all formats)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.3gp
+*.3g2
+*.mts
+*.m2ts
+*.ts
+*.vob
+*.f4v
+*.f4p
+*.f4a
+*.f4b
+*.divx
+*.xvid
+*.asf
+*.rm
+*.rmvb
+*.ogv
+*.mpg
+*.mpeg
+*.m1v
+*.m2v
+*.mpe
+*.mpv
+*.mp2
+*.mpa
+*.mpu
+*.m4p
+*.m4b
+*.m4r
+
+# Audio files (all formats)
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.wma
+*.m4a
+*.aiff
+*.au
+*.ra
+*.3ga
+*.amr
+*.awb
+*.dss
+*.dvf
+*.gsm
+*.iklax
+*.ivs
+*.mmf
+*.mpc
+*.msv
+*.nmf
+*.oga
+*.opus
+*.qcp
+*.tta
+*.vox
+*.8svx
+*.cda
+
+# Output directories
+transcripts/
+output/
+temp/
+tmp/
+
+# Test directories and sample files
+test_files/
+samples/
+media/
+
+# Large files
+*.iso
+*.dmg
+*.img
+*.bin
+*.cue
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
